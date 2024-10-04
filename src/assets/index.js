@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logonew.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -30,7 +30,28 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import best1 from "./best1.jpg";
+import best2 from "./best3.jpg";
+import best3 from "./best2.jpg";
+
+import ecom1 from "./ecom1.jpg";
+import ecom2 from "./ecom2.jpg";
+
+import support1 from "./support1.jpg";
+import support2 from "./support2.jpg";
+import support3 from "./support3.jpg";
+import support4 from "./support4.jpg";
+
 export {
+  best1,
+  best2,
+  best3,
+  ecom1,
+  ecom2,
+  support1,
+  support2,
+  support3,
+  support4,
   logo,
   backend,
   creator,

@@ -1,4 +1,13 @@
 import {
+  best1,
+  best2,
+  best3,
+  ecom1,
+  ecom2,
+  support1,
+  support2,
+  support3,
+  support4,
   mobile,
   backend,
   creator,
@@ -31,8 +40,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "Projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -198,9 +207,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Savy Support , Support Ticket Web App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Savy Support is a comprehensive web application designed to streamline support ticket management. Built on the MERN stack, it features intuitive dashboards crafted with React and Tailwind CSS, enhancing user interaction and data visualization. The backend, developed from scratch using Node.js, efficiently manages messages, tickets, and user roles, ensuring smooth data handling and integration. A real-time chat feature accelerates ticket resolution, while JWT token authentication and password encryption with bcrypt and jsonwebtoken provide robust security.",
     tags: [
       {
         name: "react",
@@ -215,49 +224,49 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    images: [support3, support2, support1, , support4],
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Kano, Clothing Brand Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Kano is a concept clothing brand website built with the MERN stack to enhance the shopping experience. It features a Node.js backend for managing products and cart functionality, complemented by intuitive interfaces designed with Tailwind CSS and Material-UI. An admin panel simplifies site management, while REST APIs ensure seamless communication between front-end and back-end. Redux is implemented for optimized cart state management, delivering a dynamic and responsive user experience. This project highlights my technical skills and focus on user-centric design.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    images: [ecom1, ecom2],
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "B.E.S.T Bus Ticket Booker Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "UTS is a bus ticket booking website built with the MERN stack, designed for an enhanced user experience. I revamped the B.E.S.T homepage with a minimalist and modern UI using Tailwind and Bootstrap. The site integrates RazorPay for secure and convenient ticket bookings, supporting multiple payment methods like Paytm, Google Pay, and net banking. Utilizing REST APIs and MVC architecture, the application efficiently handles routes and ticket management, ensuring a smooth booking process for users. ",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    images: [best2, best1, best3],
     source_code_link: "https://github.com/",
   },
 ];
