@@ -37,7 +37,7 @@ const ProjectCard = ({
           <img
             src={images[currentImage]} // Displaying the current image
             alt="project_image"
-            className="w-full h-full object-contain rounded-2xl transition-all duration-300 ease-in-out"
+            className="w-full h-full object-cover rounded-2xl transition-all duration-300 ease-in-out "
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -117,4 +117,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "Projects");

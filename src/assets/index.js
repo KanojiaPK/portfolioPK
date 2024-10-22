@@ -33,7 +33,7 @@ import tripguide from "./tripguide.png";
 import best1 from "./best1.jpg";
 import best2 from "./best3.jpg";
 import best3 from "./best2.jpg";
-
+import best4 from "./best1.jpeg";
 import ecom1 from "./ecom1.jpg";
 import ecom2 from "./ecom2.jpg";
 
@@ -46,6 +46,7 @@ export {
   best1,
   best2,
   best3,
+  best4,
   ecom1,
   ecom2,
   support1,

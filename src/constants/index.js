@@ -2,6 +2,7 @@ import {
   best1,
   best2,
   best3,
+  best4,
   ecom1,
   ecom2,
   support1,
@@ -266,7 +267,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    images: [best2, best1, best3],
+    images: [best4, best2, best1, best3],
     source_code_link: "https://github.com/",
   },
 ];
